@@ -58,8 +58,8 @@ screens remain available for experienced users and troubleshooting.
 
 SnapScreen includes twelve distinct interface styles:
 
-`Signature` · `Precision` · `Studio` · `Signal` · `Porcelain` · `Workbench` ·
-`Editorial` · `Technical` · `Contrast` · `Outline` · `Paper` · `Facet`
+`Signature` | `Precision` | `Studio` | `Signal` | `Porcelain` | `Workbench` |
+`Editorial` | `Technical` | `Contrast` | `Outline` | `Paper` | `Facet`
 
 Every style has independent Light and Dark variants. The selected appearance is
 stored on the device and does not alter printer settings or dashboard layouts.
