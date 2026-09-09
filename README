@@ -1,140 +1,19 @@
-# SnapScreen
-
-**A dedicated touch control panel for Snapmaker U1.**
-
-SnapScreen brings printer control, live monitoring and advanced G-code tools
-into one fast, purpose-built interface. It is designed for daily use at the
-printer: clear at a glance, responsive to touch and useful from the first layer
-to the finished print.
-
-[Download the latest firmware](https://github.com/AlphaStudioDE/SnapScreen/releases/latest)
-| [Report a problem](https://github.com/AlphaStudioDE/SnapScreen/issues)
-| [Support development](https://buymeacoffee.com/damianborkh)
-
-## At a glance
-
-- Live printer status, temperatures, progress and Smart ETA
-- Dedicated controls for movement, heating, extrusion, fans and tuning
-- Print file browser with thumbnails and useful file information
-- Interactive 2D and 3D print previews
-- Full G-code Viewer with layer navigation, feature filters and tool colors
-- Live camera view with touch pan, smooth zoom and fullscreen mode
-- Bed Mesh visualization and guided calibration tools
-- G-code terminal, custom macros and configurable dashboard widgets
-- Twelve visual styles, each available in Light and Dark mode
-- Built-in OTA firmware updates
-- Separate firmware builds for SnapScreen Standard and SnapScreen XL
-
-## Built around the print
-
-### Monitor and control
-
-The Status and Printing views keep the information that matters close at hand:
-the active file, print state, tool and bed temperatures, progress, remaining
-time, flow, speed and fan controls. The dashboard can be arranged around the
-way each user works.
-
-### See the model before and during printing
-
-SnapScreen can show the slicer's 2D thumbnail immediately and build an
-interactive 3D representation from the selected G-code. The G-code Viewer adds
-layer controls, movement and extrusion visibility, feature filtering, tool
-colors, camera controls and detailed file statistics.
-
-### Work directly with printer files
-
-Browse files stored on the printer, inspect thumbnails and metadata, select a
-job and start working without moving back to a computer. Preview data is loaded
-in the background and retained where practical so changing screens does not
-needlessly restart the work.
-
-### Camera, calibration and diagnostics
-
-The camera view supports touch-driven framing, zoom and fullscreen viewing.
-Bed Mesh tools provide both 2D and 3D inspection, while the terminal and macro
-screens remain available for experienced users and troubleshooting.
-
-## Appearance
-
-SnapScreen includes twelve distinct interface styles:
-
-`Signature` | `Precision` | `Studio` | `Signal` | `Porcelain` | `Workbench` |
-`Editorial` | `Technical` | `Contrast` | `Outline` | `Paper` | `Facet`
-
-Every style has independent Light and Dark variants. The selected appearance is
-stored on the device and does not alter printer settings or dashboard layouts.
-
-## Hardware variants
-
-| Variant | Display | Release file |
-| --- | --- | --- |
-| SnapScreen Standard | 800 x 480 | `firmware.bin` |
-| SnapScreen XL | 1024 x 600 | `firmwarexl.bin` |
-
-Always use the firmware that matches the hardware variant. Existing devices can
-receive supported releases through SnapScreen's built-in OTA updater.
-
-## Multi-material development
-
-SnapScreen includes the foundation for expanded multi-material workflows and
-integration with the Rainbow toolchain. CFS Nano support is currently
-**experimental** and remains under hardware and protocol validation. It should
-not yet be treated as production-ready changer control.
-
-## Releases
-
-Release packages contain:
-
-| Asset | Purpose |
-| --- | --- |
-| `firmware.bin` | Firmware for SnapScreen Standard |
-| `firmwarexl.bin` | Firmware for SnapScreen XL |
-| `version.json` | OTA release manifest |
-
-Read the notes attached to each release before updating. They include the
-visible changes, compatibility notes, validation performed and any known
-limitations.
-
-**Latest release:** [GitHub Releases](https://github.com/AlphaStudioDE/SnapScreen/releases/latest)
-
-## Feedback and bug reports
-
-Real hardware reports are invaluable. When reporting a problem, please include:
-
-- SnapScreen hardware variant
-- firmware version
-- steps needed to reproduce the behavior
-- a photo or screenshot when the issue is visual
-- serial logs when available
-- the relevant G-code file for preview or viewer problems
-
-Please do not publish passwords, Wi-Fi credentials, activation data or other
-private information in an issue.
-
-## Project status
-
-SnapScreen is actively developed and tested on physical Standard and XL
-hardware. Some integrations are experimental and are identified as such in the
-release notes. This is an independent community project and is not affiliated
-with or endorsed by Snapmaker.
-
-## Copyright and use
+SnapScreen Firmware update repository for Snapmaker U1
 
 Copyright (c) 2026 Damian Borkowski. All rights reserved.
-
-This repository is the official firmware distribution and update channel for
-SnapScreen. Unless explicitly stated otherwise, its contents may not be copied,
-modified or redistributed. Availability of downloadable firmware does not grant
-a license to the firmware or its implementation.
+I do not consent to any third party copying, modifying, or distributing the code contained in this repository.
+The code is used solely for the purpose of updating the SnapScreen system.
+This file is solely my property, and the system itself is merely loaned to the user for the duration of use of a device compatible with this system.
 
 ## Support development
 
-If SnapScreen is useful to you, you can support continued development, hardware
-testing and documentation:
+If you find this project useful, you can support continued development, testing
+and documentation:
 
 - **Buy Me a Coffee:** [Support Damian's projects](https://buymeacoffee.com/damianborkh)
-- **PayPal:** `damianborkowski88@gmail.com`
+- **PayPal:** `damianborkowski88@gmail.com` — enter this recipient email in PayPal.
 
-Contributions are voluntary support. They are not a purchase of an activation
-key or license and do not change the project's access or licensing conditions.
-Bug reports, testing and sharing the project are also welcome.
+Contributions are voluntary support, not a purchase of an activation key or a
+license, and do not change this project's license or access conditions.
+Bug reports, feedback and sharing the project are also welcome.
+Thank you to everyone who supports these projects!
