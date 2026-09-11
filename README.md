@@ -9,13 +9,21 @@
   <img src="docs/media/snapscreen-hero.svg" alt="SnapScreen — a polished touch experience for Snapmaker U1" width="1100">
 </p>
 
-**SnapScreen is a dedicated touchscreen experience for Snapmaker U1.** It brings the information and controls that matter into one clear, responsive interface — right where the print is happening.
+**SnapScreen brings 16-color printing to Snapmaker U1.** Four dedicated filament changers make four colors available to each of the printer's four toolheads — all presented through one clear, responsive touchscreen experience.
 
-Built for everyday use, SnapScreen helps you move from setup to first layer, live monitoring and final result without constantly returning to a computer.
+Alongside its multi-color workflow, SnapScreen helps you move from setup to first layer, live monitoring and final result without constantly returning to a computer.
 
 ## Start Here
 
 [Download the latest release](https://github.com/AlphaStudioDE/SnapScreen/releases/latest) | [See all releases](https://github.com/AlphaStudioDE/SnapScreen/releases) | [Report a problem](https://github.com/AlphaStudioDE/SnapScreen/issues) | [Support development](https://buymeacoffee.com/damianborkh)
+
+## 16 Colors. Four Toolheads. One Screen.
+
+SnapScreen enables printing with **up to 16 colors**: four colors for each of the Snapmaker U1's four toolheads, supplied through dedicated filament changers.
+
+<p align="center"><strong>4 toolheads × 4 colors = 16-color printing</strong></p>
+
+Choose materials visually, keep every toolhead's available colors in view and manage the multi-color workflow from the same interface used for the rest of the print. It is SnapScreen's defining advantage: dramatically more creative freedom without turning the printer into a collection of disconnected controls.
 
 ## The Printer Experience, Reimagined
 
@@ -49,9 +57,9 @@ SnapScreen includes five focused appearance styles: **Signature, Precision, Sign
 
 Your appearance choice stays separate from dashboard layout and printer settings, making it easy to change the mood without changing the workflow.
 
-## Multi-Material Is The Next Chapter
+## The Multi-Material Experience
 
-SnapScreen's multi-material experience is being developed around **CFS Nano**. Early live workflows are now running on real hardware, while broader day-to-day validation continues.
+SnapScreen's 16-color experience is being developed around dedicated **CFS Nano filament changers**. Early live workflows are now running on real hardware, while broader day-to-day validation continues.
 
 This part of the project is still a **development preview** and should not yet be treated as production-ready. Public updates will focus on the experience and visible capabilities; implementation details remain private.
 
@@ -72,7 +80,7 @@ Both variants share the same product direction, familiar workflow and release ch
 | Camera, calibration and advanced print tools | Working |
 | Standard and XL editions | Available and actively tested |
 | Light and Dark appearance collection | Available |
-| CFS Nano multi-material experience | Development preview; real-hardware validation in progress |
+| 16-color CFS Nano experience | Development preview; real-hardware validation in progress |
 
 SnapScreen is under active development. Release notes describe visible changes, compatibility and known limitations for each published version.
 
