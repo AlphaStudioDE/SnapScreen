@@ -38,6 +38,22 @@ Choose the firmware intended for your edition; never interchange the two.
 
 ## Get started
 
+**SnapScreen XL — first installation or installer upgrade:** download the
+[Instalator dla testerów / Tester installer 1.0.4](https://github.com/AlphaStudioDE/SnapScreen/releases/tag/SnapScreen_Tester_Installer)
+and follow the included Polish or English instructions. This package is for the
+XL ESP32-P4 / JC1060P470 / 16 MiB board only.
+
+Installer 1.0.4 uses the updated PrismFlow licence service. Older installers through
+1.0.3 need the new USB package for online ordering or licence collection; the old
+service address does not redirect. Preserve NVS and your existing device ticket.
+Do not buy another licence to migrate. Updating full firmware alone does not replace
+an older mini-installer.
+
+**Already running activated XL firmware:** use the built-in updater for encrypted
+OTA 1.0.4. Existing device tickets remain valid. The latest full-firmware release and
+the tester USB installer are separate downloads; exact 1.0.4 hardware acceptance
+remains pending.
+
 [Download the latest release](https://github.com/AlphaStudioDE/SnapScreen/releases/latest)
 | [Browse releases](https://github.com/AlphaStudioDE/SnapScreen/releases)
 | [Share feedback](https://github.com/AlphaStudioDE/SnapScreen/issues)
