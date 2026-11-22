@@ -21,6 +21,52 @@ idea, not an official association with or a renamed copy of KlipperScreen.
 required.** Builders supply their own hardware. Free distribution does not imply
 an open-source licence; no firmware source is published in this repository.
 
+### See SnapScreen on the panel
+
+These are **actual 1024 × 600 screenshots from the ESP32-P4 panel**, using
+**Satin Ribbon / Blue / dark** in the local **1.0.10 interface preview**.
+[Browse all 29 workspaces and views](docs/SCREENSHOT-GALLERY.md) ·
+[Feature-to-screenshot map](docs/FEATURE-MAP-EN.md) ·
+[Contest project overview](docs/CONTEST-SUBMISSION-EN.md)
+
+![SnapScreen print monitor with four native tools and embedded preview](images/screenshots/satin-blue/printing.png)
+
+The print monitor combines native tool/material colors, the active filament path,
+a 2D/3D preview, progress, ETA, layers, temperatures, speed and flow.
+
+| Native filament management | A configurable home dashboard |
+|---|---|
+| ![Four native tools and the selected filament console](images/screenshots/satin-blue/filaments.png) | ![Four hotends, printer state, progress and connectivity](images/screenshots/satin-blue/status.png) |
+| Materials, colors and load/unload workflow entry for the printer's own tools. | Combine readings and progress around your own workflow. |
+
+| Widget library | Touch-and-hold editing |
+|---|---|
+| ![Widget library with categories and previews](images/screenshots/satin-blue/widget-library.png) | ![Dashboard editor with selected widget and edit controls](images/screenshots/satin-blue/editor.png) |
+| Preview widgets and choose supported sizes and presentations. | Arrange the workspace and keep saved layouts. |
+
+| G-code inspection | Bed-surface inspection |
+|---|---|
+| ![Loaded G-code with feature filters](images/screenshots/satin-blue/preview-filters.png) | ![Three-dimensional mesh and height statistics](images/screenshots/satin-blue/leveling-toggle.png) |
+| Inspect the toolpath, model details, visibility, pan/rotate/zoom and lighting. | Inspect the available mesh in 2D/3D without starting a calibration. |
+
+| Thermal workspace | Motion workspace |
+|---|---|
+| ![Four-hotend chart, cooling and tool controls](images/screenshots/satin-blue/temperatures-left.png) | ![XYZ jog, steps, coordinates and homing controls](images/screenshots/satin-blue/movement.png) |
+| Hotend history, tool selection, readiness, cooling and overrides. | Reach ordinary movement controls when printer state permits. |
+
+| Printer macros |
+|---|
+| ![Printer-provided macro library and console](images/screenshots/satin-blue/macros.png) |
+| Discover printer-provided shortcuts and keep the console beside them. |
+
+The interface was captured on hardware with **illustrative telemetry from an
+isolated presentation source**. The images are not proof of a physical print,
+heating, motion, filament loading or calibration test. Printer-specific features
+depend on API/configuration. No printer commands were invoked by capture automation.
+
+**Download note:** the public kit linked above remains **1.0.8**. These 1.0.10
+preview images do not replace that download or claim new-P4 physical acceptance.
+
 ### More of your workflow, right beside the printer
 
 | Feature | What it brings to your workspace |
@@ -127,3 +173,4 @@ behavior. Do not attach private full-flash backups, Wi-Fi credentials or persona
 activation tickets to public issues.
 
 Created by Damian Borkowski / PrismFlow.
+
